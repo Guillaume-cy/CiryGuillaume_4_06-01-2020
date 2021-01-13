@@ -27,6 +27,10 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.liens__footer{
+   color: white;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -852,7 +856,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1070,3 +1074,4 @@ h4 {
         text-align: center;
     }
 }
+
