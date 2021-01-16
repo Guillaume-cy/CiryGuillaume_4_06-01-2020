@@ -27,9 +27,15 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
-.liens__footer{
-   color: white;
-}
+.col-sm-4{
+    color: white;
+ }
+
+ h2{
+     color: black;
+ }
+
+ 
 
 .bloc {
     width: 100%;
@@ -57,7 +63,7 @@ a:hover {
 }
 
 .background-texte{
-    background-color: #3f3e3e;
+    background-color: black;
     width: 50%;
 }
 
@@ -116,20 +122,8 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -676,7 +670,6 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -686,7 +679,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color:black !important;
+    color: white;
 }
 
 p {
@@ -795,7 +788,7 @@ h4 {
 }
 
 .black-background {
-    background-color:#3f3e3e;
+    background-color:black;
     padding: 40px 40px 40px 40px;
 }
 
@@ -1062,11 +1055,15 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .container {
+        max-width: 480px;
+      }
 }
 
 @media (max-width: 767px) {
