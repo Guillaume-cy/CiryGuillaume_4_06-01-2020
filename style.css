@@ -35,7 +35,13 @@ a:hover {
      color: black;
  }
 
+ .text-footer{
+     color: white;
+ }
  
+ .text-center{
+     color: black;
+ }
 
 .bloc {
     width: 100%;
@@ -86,8 +92,12 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 40px 50px;
     
+}
+
+.form-titre{
+    text-align: initial;
 }
 
 .bloc-md {
@@ -354,7 +364,7 @@ a:hover {
 
 .nav > li {
     float: left;
-    margin-top: 4px;
+    margin-left: 50px;
     font-size: 16px;
 }
 
@@ -395,10 +405,11 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
-        right: 20px;
+        top: 40%;
+        right: 20%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+        list-style-type: none;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -669,12 +680,15 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+.label{
+    color: black;
+}
+
 h1,
 h3,
 h4,
 h5,
 h6,
-label,
 .btn,
 a {
     font-family: "helvetica";
@@ -685,7 +699,7 @@ a {
 p {
     font-family: "helvetica";
     font-weight: 400;
-    color: black !important;
+
 }
 
 .container {
@@ -909,6 +923,7 @@ h4 {
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        list-style-type: none;
     }
     .nav > li {
         margin-top: 0;
@@ -968,6 +983,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        padding-top: 20px;
     }
     .bloc-sm,
     .bloc-md {
